@@ -6,3 +6,16 @@
 @import "_partials/utilities.scss";
 @import "_partials/variables.scss";
 @import "_partials/mixins.scss";
+
+
+
+li {
+    display: flex;
+
+
+    .card {
+        background: linear-gradient(180deg, rgb(235, 235, 235) 31%, rgba(136, 59, 57, 1) 100%);
+        border: 1px solid black;
+        width: 100%;
+    }
+}
