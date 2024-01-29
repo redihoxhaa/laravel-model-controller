@@ -12,10 +12,19 @@
 li {
     display: flex;
 
+    .card-custom {
 
-    .card {
-        background: linear-gradient(180deg, rgb(235, 235, 235) 31%, rgba(136, 59, 57, 1) 100%);
-        border: 1px solid black;
-        width: 100%;
+        .card__content {
+
+            h5 {
+                color: rgb(136, 136, 136);
+            }
+
+            .score {
+                font-style: italic;
+            }
+        }
+
     }
+
 }
